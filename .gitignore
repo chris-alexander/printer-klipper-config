@@ -1,0 +1,25 @@
+# Vendor-managed (Update Manager)
+klipper-macros/
+
+# Historic printer config snapshots
+printer-*.cfg
+
+# Backups / editor temp files
+*.bkp
+*.bak
+*.old
+*.orig
+*.swp
+
+# Runtime state (surface offsets etc.)
+# variables.cfg
+KlipperScreen.conf
+crowsnest.conf*
+sonar.conf
+
+# Logs (if any end up here)
+*.log
+
+# Symlinks to external-managed configs (optional)
+mainsail.cfg
+timelapse.cfg
